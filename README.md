@@ -3,4 +3,3 @@ PCF Control for PowerApps Canvas Apps to get Address Suggestions using Google Ma
 
 NOTE: Refresh The page/screen after adding Api Key to the ApiKey Property.
 
-Extract the Provided Zip to get index.ts,ControlManifest.xms,Solution.zip and other files.
