@@ -21,8 +21,8 @@ export class AddressSuggestions3 implements ComponentFramework.StandardControl<I
 
         // Create input element
         this._input = document.createElement("input");
-        this._input.width= context.parameters.IWidth.raw!;
-        this._input.height= context.parameters.IWidth.raw!;
+        this._input.style.width= context.parameters.IWidth.raw! + "px";
+        this._input.style.height= context.parameters.IHeight.raw! + "px";
         this._input.type = "text";
         this._input.id = "address-input";
         this._container.appendChild(this._input);
@@ -74,7 +74,21 @@ export class AddressSuggestions3 implements ComponentFramework.StandardControl<I
     }
 
     public updateView(context: ComponentFramework.Context<IInputs>): void {
-        // No need to update view during input or place change events
+        this._context = context;
+        this._apiKey = context.parameters.apiKey.raw!;
+       
+        this._input.style.width= context.parameters.IWidth.raw! + "px";
+        this._input.style.height= context.parameters.IHeight.raw! + "px";
+        this._input.type = "text";
+        this._input.id = "address-input";
+        this._container.appendChild(this._input);
+
+        // Load Google Places API
+        const script = document.createElement("script");
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${this._apiKey}&libraries=places`;
+        script.async = true;
+        script.onload = this._initializeAutocomplete.bind(this);
+        this._container.appendChild(script);
     }
 
     public getOutputs(): IOutputs {
