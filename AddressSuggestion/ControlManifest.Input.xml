@@ -7,8 +7,8 @@
 
     <property name="SelectedAddress" display-name-key="Selected Address" description-key="Property_Desc1_Key" of-type="Multiple" usage="bound" required="true"/>
     <property name="apiKey" display-name-key="Api Key" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
-    <property name="IHeight" display-name-key="Height" description-key="Property_Desc2_Key" of-type="Decimal" usage="bound" required="true"/>
-    <property name="IWidth" display-name-key="Width" description-key="Property_Desc2_Key" of-type="Decimal" usage="bound" required="true"/>
+    <property name="IHeight" display-name-key="Height" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="IWidth" display-name-key="Width" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
     
     <resources><code path="index.ts" order="1"/></resources>
   
