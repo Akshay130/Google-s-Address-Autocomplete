@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mt71XuoQ7NYGZ6VVjw7HKC6sCBYvxCzYqeHrVp9vNUj2ySl+KeUukufsFsO4fo9BZ9FHfH/wHBc8i9rCpybdiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A\\Desktop\\AddrInp\\AddressInputv3\\AddressInputv3.cdsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\A\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\A\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.22.4\\microsoft.powerapps.msbuild.pcf.1.22.4.nupkg.sha512",
+    "C:\\Users\\A\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.22.4\\microsoft.powerapps.msbuild.solution.1.22.4.nupkg.sha512"
+  ],
+  "logs": []
+}

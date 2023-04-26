@@ -1,0 +1,19 @@
+2023-04-26 20:00:58.027 - Info	
+Packing C:\Users\A\Desktop\AddrInp\AddressInputv3\obj\Debug\Metadata to bin\Debug\AddressInputv3.zip
+
+2023-04-26 20:00:58.051 - Info	Processing Component: Entities
+2023-04-26 20:00:58.059 - Info	Processing Component: Roles
+2023-04-26 20:00:58.066 - Info	Processing Component: Workflows
+2023-04-26 20:00:58.067 - Info	Processing Component: FieldSecurityProfiles
+2023-04-26 20:00:58.068 - Info	Processing Component: Templates
+2023-04-26 20:00:58.074 - Info	Processing Component: EntityMaps
+2023-04-26 20:00:58.076 - Info	Processing Component: EntityRelationships
+2023-04-26 20:00:58.083 - Info	Processing Component: OrganizationSettings
+2023-04-26 20:00:58.085 - Info	Processing Component: optionsets
+2023-04-26 20:00:58.088 - Info	Processing Component: CustomControls
+2023-04-26 20:00:58.104 - Info	 - AddressInputV3.AddressInputV3
+2023-04-26 20:00:58.112 - Info	Processing Component: SolutionPluginAssemblies
+2023-04-26 20:00:58.114 - Info	Processing Component: EntityDataProviders
+2023-04-26 20:00:58.191 - Info	
+Unmanaged Pack complete.
+

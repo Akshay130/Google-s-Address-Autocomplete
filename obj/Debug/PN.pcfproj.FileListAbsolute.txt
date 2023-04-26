@@ -1,0 +1,4 @@
+C:\Users\A\Desktop\PN\obj\Debug\PN.pcfproj.AssemblyReference.cache
+C:\Users\A\Desktop\PN\obj\Debug\PN.pcfproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\AddrInp\obj\Debug\PN.pcfproj.AssemblyReference.cache
+C:\Users\A\Desktop\AddrInp\obj\Debug\PN.pcfproj.CoreCompileInputs.cache

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="AddressInputV3" constructor="AddressInputV3" version="0.0.3" display-name-key="AddressSuggestion3" description-key="AddressSuggestion description" control-type="standard">
+    <external-service-usage enabled="false">
+   
+    </external-service-usage>
+
+    <property name="SelectedAddress" display-name-key="Selected Address" description-key="Property_Desc1_Key" of-type="Multiple" usage="bound" required="true"/>
+    <property name="apiKey" display-name-key="Api Key" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="IHeight" display-name-key="Height" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="IWidth" display-name-key="Width" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="Radius" display-name-key="radius" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="Fontsize" display-name-key="fontsize" description-key="Property_Desc2_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    
+    <resources><code path="index.ts" order="1"/></resources>
+  
+  </control>
+</manifest>
